@@ -1,0 +1,49 @@
+body {
+    font-family: "Arial", "Helvetica Neue",Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+#headOne{
+    line-height: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+nav{
+    line-height: 70px;
+    text-align: center;
+    padding-top: 10px;
+}
+section{
+    float:left;
+    line-height: 700px;
+    vertical-align: text-top;
+    width: 495px;
+    z-index: 1;
+    position:relative;
+}
+.clearF{
+    text-align: center;
+}
+header, nav, section, aside, footer {
+    background: #ebebeb;
+    border-style: solid;
+}
+article {
+    color: #ebebeb;
+    background: #777;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+}
+h1, p {
+    color: #777;
+    background: #ebebeb;
+}
+aside{
+    line-height: 220px;
+}
+footer{
+    float: bottom;
+}
